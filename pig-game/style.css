@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(145deg, orange, purple);
+  background-repeat: no-repeat;
+}
+.won {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(145deg, orange, purple);
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.hwon {
+  display: none;
+}
+.wnewgame {
+  position: absolute;
+  top: 15%;
+  left: 46%;
+  background: lightsteelblue;
+  border: none;
+  color: white;
+  font-weight: 900;
+  padding: 1% 1%;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: padding 0.3s ease;
+}
+.wnewgame:active {
+  padding: 8px;
+  border: 2px solid orangered;
+}
+.container {
+  margin: 12.5vh 12.5vw;
+  width: 75vw;
+  height: 75vh;
+  border-radius: 2rem;
+  background-image: linear-gradient(to left, black 50%, orange 50%);
+  display: flex;
+  color: white;
+}
+.player1 {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.player1 p {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.player1 p:nth-child(1) {
+  margin-top: 10vh;
+}
+.collector1 {
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 10vh;
+  height: max-content;
+  width: 50%;
+  height: 40%;
+}
+.player2 {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.player2 p {
+  /* color: orange; */
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.player2 p:nth-child(1) {
+  margin-top: 10vh;
+}
+.collector2 {
+  background-color: orange;
+  border-radius: 1rem;
+  margin-bottom: 10vh;
+  height: max-content;
+  width: 50%;
+  height: 40%;
+}
+.images {
+  position: absolute;
+  top: 45vh;
+  left: 47.5vw;
+  height: 75px;
+  width: 75px;
+  background-color: blue;
+}
+.newgame {
+  position: absolute;
+  top: 15%;
+  left: 46%;
+  background: lightsteelblue;
+  border: none;
+  color: white;
+  font-weight: 900;
+  padding: 1% 1%;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: padding 0.3s ease;
+}
+.newgame:active {
+  padding: 8px;
+  border: 2px solid orangered;
+}
+.rolldice {
+  position: absolute;
+  top: 70%;
+  left: 47%;
+  background: lightsteelblue;
+  border: none;
+  color: white;
+  font-weight: 900;
+  padding: 1% 1%;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: padding 0.3s ease;
+}
+.rolldice:active {
+  padding: 8px;
+  border: 2px solid orangered;
+}
+.hold {
+  position: absolute;
+  top: 78%;
+  left: 48%;
+  background: lightsteelblue;
+  border: none;
+  color: white;
+  font-weight: 900;
+  padding: 1% 1%;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: padding 0.3s ease;
+}
+.hold:active {
+  padding: 8px;
+  border: 2px solid orangered;
+}
