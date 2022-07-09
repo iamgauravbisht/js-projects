@@ -1,2 +1,5 @@
 # js-projects
-projects i made while learning javascript
+Projects i made while learning javascript
+1.Guessing-game
+2.modal-window
+3.pig-game
