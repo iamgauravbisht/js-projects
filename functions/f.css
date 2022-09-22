@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(rgb(73, 225, 73), rgb(64, 154, 64));
+  height: 100vh;
+  padding: 0 25% 0 25%;
+}
+.buttondiv {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  margin: 5px;
+  padding: 20px;
+  background-color: white;
+  border: solid 2px;
+  font-size: large;
+  font-weight: 900;
+  transition: padding 0.3s ease;
+  /* font-size 0.3s ease font-weight 0.3s ease */
+}
+.button:active {
+  padding: 10px;
+  font-size: medium;
+  font-weight: 700;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+}
